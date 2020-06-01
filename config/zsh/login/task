@@ -1,0 +1,4 @@
+#! zsh
+if [[ -z $TASKRC ]]; then
+	export TASKRC=$XDG_CONFIG_HOME/task/taskrc
+fi
