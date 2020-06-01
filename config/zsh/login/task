@@ -2,3 +2,6 @@
 if [[ -z $TASKRC ]]; then
 	export TASKRC=$XDG_CONFIG_HOME/task/taskrc
 fi
+if [[ -z $TIMEWARRIORDB ]]; then
+	export TIMEWARRIORDB=$XDG_DATA_HOME/timew
+fi
