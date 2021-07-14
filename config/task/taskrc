@@ -20,3 +20,10 @@ include /usr/local/share/doc/task/rc/dark-256.theme
 report.progress.description=Tasks currently in progress
 report.progress.columns=id,description.truncated
 report.progress.filter=status:pending and +ACTIVE
+
+# Sync!
+taskd.server=task.00dani.me:53589
+taskd.ca=~/.config/task/isrgrootx1.pem
+taskd.certificate=~/.config/task/client.cert.pem
+taskd.key=~/.config/task/client.key.pem
+include ~/.config/task/taskd.credentials
