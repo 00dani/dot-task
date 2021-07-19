@@ -1,4 +1,4 @@
 #! zsh
 if [[ -z $RPROMPT ]]; then
-	RPROMPT='$(task rc.gc=off rc.verbose=nothing progress)'
+	RPROMPT='$(task progress rc.verbose=nothing rc.gc=0)'
 fi
