@@ -15,9 +15,6 @@
 data.location=~/.local/share/task
 hooks.location=~/.config/task/hooks
 
-# Color theme (uncomment one to use)
-include /usr/local/share/doc/task/rc/dark-256.theme
-
 # Report specifically for displaying my in-progress task in the shell prompt, as a quick reminder
 report.progress.description=Tasks currently in progress
 report.progress.columns=id,description.truncated
