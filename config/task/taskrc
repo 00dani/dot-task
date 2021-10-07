@@ -12,8 +12,8 @@
 # Use the command 'task show' to see all defaults and overrides
 
 # Files
-data.location=~/.local/share/task
-hooks.location=~/.config/task/hooks
+data.location=$XDG_DATA_HOME/task
+hooks.location=$XDG_CONFIG_HOME/task/hooks
 
 # Report specifically for displaying my in-progress task in the shell prompt, as a quick reminder
 report.progress.description=Tasks currently in progress
@@ -22,7 +22,7 @@ report.progress.filter=status:pending and +ACTIVE
 
 # Sync!
 taskd.server=task.00dani.me:53589
-taskd.ca=~/.config/task/isrgrootx1.pem
-taskd.certificate=~/.config/task/client.cert.pem
-taskd.key=~/.config/task/client.key.pem
-include ~/.config/task/taskd.credentials
+taskd.ca=$XDG_CONFIG_HOME/task/isrgrootx1.pem
+taskd.certificate=$XDG_CONFIG_HOME/task/client.cert.pem
+taskd.key=$XDG_CONFIG_HOME/task/client.key.pem
+include $XDG_CONFIG_HOME/task/taskd.credentials
