@@ -26,3 +26,6 @@ taskd.ca=$XDG_CONFIG_HOME/task/isrgrootx1.pem
 taskd.certificate=$XDG_CONFIG_HOME/task/client.cert.pem
 taskd.key=$XDG_CONFIG_HOME/task/client.key.pem
 include $XDG_CONFIG_HOME/task/taskd.credentials
+
+recurrence=0
+include $XDG_CONFIG_HOME/task/taskrc.local
