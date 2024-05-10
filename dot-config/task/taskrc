@@ -15,7 +15,7 @@
 data.location=$XDG_DATA_HOME/task
 hooks.location=$XDG_CONFIG_HOME/task/hooks
 
-news.version=2.6.0
+news.version=3.0.2
 
 # Report specifically for displaying my in-progress task in the shell prompt, as a quick reminder
 report.progress.description=Tasks currently in progress
@@ -23,10 +23,8 @@ report.progress.columns=id,description.truncated
 report.progress.filter=status:pending and +ACTIVE
 
 # Sync!
-taskd.server=task.00dani.me:53589
-taskd.ca=$XDG_CONFIG_HOME/task/isrgrootx1.pem
-taskd.certificate=$XDG_CONFIG_HOME/task/client.cert.pem
-taskd.key=$XDG_CONFIG_HOME/task/client.key.pem
+sync.server.origin=https://task.00dani.me
+sync.server.client_id=13e0af9b-05bf-4742-a54a-506306c79bb0
 include $XDG_CONFIG_HOME/task/taskd.credentials
 
 recurrence=0
